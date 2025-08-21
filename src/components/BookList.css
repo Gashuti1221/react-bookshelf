@@ -1,0 +1,17 @@
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.938rem;
+  margin-bottom: 2.5rem;
+}
+
+.no-books {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  background-color: #fff;
+}

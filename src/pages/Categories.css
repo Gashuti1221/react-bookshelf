@@ -1,0 +1,23 @@
+.categories-page {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.categories-page h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 1.5rem;
+}
+
+.status-message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  color: #0290ff;
+}

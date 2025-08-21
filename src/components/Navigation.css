@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 6rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+  margin-right: 3rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.nav a:hover,
+.nav a.active {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav ul {
+    gap: 1.5rem;
+  }
+}
